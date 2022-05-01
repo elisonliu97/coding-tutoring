@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- start of HTML document -->
+<html lang="en">
+  <!-- head is where all the details of the page go -->
+  <head>
+    <!-- this is to tell the browser what character sheet to use-->
+    <meta charset="UTF-8" />
+    <!-- this is tell the browser what viewport this html is made for -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- something for microsoft edge idk -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- title of the document, this is what is displayed in the tab -->
+    <title>Portfolio Sample</title>
+    <!-- this is to let the browser know what style sheet to use -->
+    <link rel="stylesheet" href="kermit-style.css" />
+  </head>
+  <!-- body is what is rendered -->
+  <body>
+    <nav>
+      <h2 id="name">Name</h2>
+      <div class="nav-buttons">
+        <p><a href="#about">About Me</a></p>
+        <p><a href="#work">Work</a></p>
+        <p><a href="#contact">Contact Me</a></p>
+        <p><a href="https://google.com">Resume</a></p>
+      </div>
+    </nav>
+    <img src="dog.webp" id="hero" />
+    <div class="section" id="about">
+      <h2>About Me</h2>
+      <p class="content">
+        Hi blah blah balbhalbhalbhalbhalb blabh Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. A est totam quos sunt sit maiores dolore
+        ipsam unde odit mollitia veniam, nemo debitis in. Recusandae modi
+        eveniet sequi pariatur molestias. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Id architecto ut quidem ab reprehenderit porro
+        molestiae magnam obcaecati ullam, rem commodi dolore nobis, vitae,
+        repellendus qui pariatur quis consectetur repudiandae.
+      </p>
+    </div>
+    <div class="section" id="work">
+      <h2>Work</h2>
+      <div class="content">
+        <div class="main-tile tile">
+          <a href="https://google.com" target="_blank">
+            <img src="dog.webp" />
+            <p>label 1</p>
+          </a>
+        </div>
+        <div class="tile">
+          <img src="dog.webp" />
+          <p>label 2</p>
+        </div>
+        <div class="tile">
+          <img src="dog.webp" />
+          <p>label 3</p>
+        </div>
+        <div class="tile">
+          <img src="dog.webp" />
+          <p>label 4</p>
+        </div>
+        <div class="tile">
+          <img src="dog.webp" />
+          <p>label 5</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Contact Me</h2>
+      <div class="content">
+        <ul class="contact-section">
+          <li>
+            <a href="mailto:webmaster@example.com">Email: this is my email</a>
+          </li>
+          <li><a href="https://linkedin.com">LinkedIn</a></li>
+          <li><a href="https://github.com">Github</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
