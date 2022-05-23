@@ -228,3 +228,7 @@ function changePassword(password) {
 console.log(changePassword('abcd/'));
 
 // elison -> dkhrnm
+
+// Q1: given an array, return the largest number in that list
+// Q2: Given a string, remove all spaces
+// Q3: Given a number, find all numbers before it that are squares
